@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "type": "blob",
+      "name": "inputBlob",
+      "path": "dnsfiles/Domains.csv",
+      "connection": "domainsearchcsvfiles_STORAGE",
+      "direction": "in"
+    },
+    {
+      "type": "timerTrigger",
+      "name": "Timer",
+      "schedule": "0 */5 * * * *",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}
