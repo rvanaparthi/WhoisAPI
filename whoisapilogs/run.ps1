@@ -10,8 +10,9 @@ if ($Timer.IsPastDue) {
     Write-Host "PowerShell timer is running late!"
 }
 
-Write-Host "$workspaceID"
-Write-Host "$workspaceKey"
-Write-Host "$apiusername"
-Write-Host "$apipassword"
+
+Write-Host "$env:workspaceID"
+Write-Host "$env:workspaceKey"
+Write-Host "$env:apiusername"
+Write-Host "$$env:apipassword"
 
