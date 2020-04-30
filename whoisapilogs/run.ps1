@@ -14,5 +14,5 @@ if ($Timer.IsPastDue) {
 Write-Host "$env:workspaceID"
 Write-Host "$env:workspaceKey"
 Write-Host "$env:apiusername"
-Write-Host "$$env:apipassword"
+Write-Host "$env:apipassword"
 
