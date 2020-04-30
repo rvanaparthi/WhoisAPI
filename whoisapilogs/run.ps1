@@ -1,5 +1,5 @@
 # Input bindings are passed in via param block.
-param($InputBlob, $TriggerMetadata, $Timer) 
+param($TriggerMetadata, $Timer) 
 
 
 # Write out the blob name and size to the information log.
